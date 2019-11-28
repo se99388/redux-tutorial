@@ -5,7 +5,7 @@ const Header = (props) => {
 console.log(props)
     return (
         <h1>
-            Logged in. My name is: (from redux)
+            Logged in. My name is: {props.username}
         </h1>
     );
 }
