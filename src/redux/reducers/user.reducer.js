@@ -1,6 +1,6 @@
-import { SET_NAME } from './actions'
+import { SET_NAME } from '../actions/user.action'
 
-const initialState = 'myName'
+const initialState = {name:'myName'}
 const reducer = (state = initialState, action) => {
 
     switch (action.type) {

@@ -1,5 +1,5 @@
 
-export const SET_NAME = 'SET NAME';
+export const SET_NAME = '[user] SET NAME';
 
 export const setName = (newName) => {
     return {
