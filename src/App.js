@@ -3,6 +3,8 @@ import Login from './components/Login';
 import Header from './components/Header';
 import { Provider } from 'react-redux';
 import store from './redux/store';
+import Search from './components/Search';
+import Taskslist from './components/TasksList';
 import './App.css';
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <h1>Hello</h1>
         <Header />
         <Login />
+        <Search />
+        <Taskslist />
       </div>
     </Provider>
   );

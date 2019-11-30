@@ -11,7 +11,7 @@ console.log(props)
 }
 //connect is HOC. we send into the conncet: 1. function with all the state which return the realevant obj only, from this state. Now we will get it in the props and we can subscribe to any changes in this specific state
 export default connect(
-    (state) => { return { username: state.name } },
+    (state) => { return { username: state.user.name } },
     null
 )(Header);
 
