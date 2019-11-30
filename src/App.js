@@ -1,5 +1,5 @@
 import React from 'react';
-import Login from './components/Login';
+import ContainerLogin from './components/containerLogin/containerLogin';
 import Header from './components/Header';
 import { Provider } from 'react-redux';
 import store from './redux/store';
@@ -14,7 +14,7 @@ function App() {
       <div className="App">
       <h1>Hello</h1>
         <Header />
-        <Login />
+        <ContainerLogin />
         <Search />
         <Taskslist />
       </div>
